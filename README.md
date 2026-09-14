@@ -1,6 +1,16 @@
 # Ayush Kumar Jha — Profile 2.0
 
-A cinematic portfolio with a cursive introduction, portrait reveal, scroll-driven technical chapters, animated backgrounds, projects and CV.
+A personal portfolio showcasing software, cybersecurity, embedded systems and computer vision projects, alongside certifications, education and community presentations.
+
+**Live website: [ayush-kumar-jha-v2.onrender.com](https://ayush-kumar-jha-v2.onrender.com/)**
+
+## Experience
+
+- Cursive signature introduction and portrait reveal.
+- Scroll-driven technical chapters and animated canvas backgrounds.
+- Four project case studies with always-visible stories and source/demo links.
+- AgentPGO work in progress, certifications, presentation photos and downloadable CV.
+- Responsive layouts for phones, tablets and laptops, accessible navigation and reduced-motion support.
 
 ## Run locally
 
@@ -8,18 +18,18 @@ A cinematic portfolio with a cursive introduction, portrait reveal, scroll-drive
 python -m http.server 8003 --bind 127.0.0.1
 ```
 
-Open http://localhost:8003/ . No dependency installation or build step is required.
+Open http://localhost:8003/ . No dependencies or build step are required.
 
-## Editable code
+## Source files
 
-- `index.html`: all page content, projects and links.
-- `style.css`: responsive layouts, typography and transitions.
-- `script.js`: signature intro, scroll choreography, canvas backgrounds and menu.
-- `portrait.jpeg` and `CV.pdf`: personal assets.
-- `Allura-Regular.ttf` and `OFL-Allura.txt`: self-hosted cursive font and its SIL Open Font License.
+- `index.html`: page content, projects and links.
+- `style.css`: layouts, typography and transitions.
+- `script.js`: intro, scroll choreography, canvas and menu.
+- `portrait.jpeg`, `starpitch.png`, `blue-team-talk.png` and `CV.pdf`: personal assets.
+- `Allura-Regular.ttf` and `OFL-Allura.txt`: cursive font and SIL Open Font License.
 
 ## Hosting
 
-Deploy this repository as a free Render Static Site. Publish directory: `.`. Build command: `echo Portfolio ready`.
+Render Static Site with publish directory `.` and build command `echo Portfolio ready`.
 
-The site is static and does not require API keys, accounts, or a database. Reduced-motion settings are supported. Project illustrations are stylised interface concepts.
+This is a static site without API keys, accounts or a database. Project illustrations are stylised concepts. Certificates and demo folders retain their Google Drive access settings. Personal photos and CV are not covered by the font license.
