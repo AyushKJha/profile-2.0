@@ -1,35 +1,44 @@
-# Ayush Kumar Jha — Profile 2.0
+<img src="docs/banner.svg" alt="Project overview" width="100%">
 
-A personal portfolio showcasing software, cybersecurity, embedded systems and computer vision projects, alongside certifications, education and community presentations.
+# Selected Works
+### Ayush Kumar Jha · Portfolio 2.0
 
-**Live website: [ayush-kumar-jha-v2.onrender.com](https://ayush-kumar-jha-v2.onrender.com/)**
+[Open the portfolio](https://ayush-kumar-jha-v2.onrender.com/) · [View CV](CV.pdf)
 
-## Experience
+A static portfolio bringing together software projects, security coursework, embedded experiments, certificates, and technical community work.
 
-- Cursive signature introduction and portrait reveal.
-- Scroll-driven technical chapters and animated canvas backgrounds.
-- Four project case studies with always-visible stories and source/demo links.
-- AgentPGO work in progress, certifications, presentation photos and downloadable CV.
-- Responsive layouts for phones, tablets and laptops, accessible navigation and reduced-motion support.
+**HTML · CSS · JavaScript · Canvas**
+
+## Design
+
+A signature introduction leads into a portrait reveal and scroll-driven project chapters. Project stories sit alongside their source and demo links, followed by credentials and presentation photographs.
+
+The interface includes responsive navigation, a skip link, reduced-motion support, and a replayable introduction. Project illustrations are visual concepts rather than screenshots of running products.
 
 ## Run locally
 
 ```sh
+git clone https://github.com/AyushKJha/profile-2.0.git
+cd profile-2.0
 python -m http.server 8003 --bind 127.0.0.1
 ```
 
-Open http://localhost:8003/ . No dependencies or build step are required.
+Open http://localhost:8003. No dependencies or build step are required.
 
-## Source files
+## Make changes
 
-- `index.html`: page content, projects and links.
-- `style.css`: layouts, typography and transitions.
-- `script.js`: intro, scroll choreography, canvas and menu.
-- `portrait.jpeg`, `starpitch.png`, `blue-team-talk.png` and `CV.pdf`: personal assets.
-- `Allura-Regular.ttf` and `OFL-Allura.txt`: cursive font and SIL Open Font License.
+| File | Edit here for |
+| --- | --- |
+| [index.html](index.html) | Biography, projects, education, certificates, and links |
+| [style.css](style.css) | Typography, colors, and layout |
+| [script.js](script.js) | Introduction, scroll effects, canvas, and menu |
+| [CV.pdf](CV.pdf) | Downloadable CV |
+| [OFL-Allura.txt](OFL-Allura.txt) | Bundled font license |
 
 ## Hosting
 
-Render Static Site with publish directory `.` and build command `echo Portfolio ready`.
+The current Render static site publishes the repository root. It uses no API keys, accounts, or database. Certificate and demo links retain their external sharing settings.
 
-This is a static site without API keys, accounts or a database. Project illustrations are stylised concepts. Certificates and demo folders retain their Google Drive access settings. Personal photos and CV are not covered by the font license.
+Personal photographs and the CV are not covered by the bundled font's license.
+
+[GitHub profile](https://github.com/AyushKJha) · [Earlier React portfolio](https://github.com/AyushKJha/ayush-portfolio)
