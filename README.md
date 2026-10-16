@@ -3,7 +3,7 @@
 # Selected Works
 ### Ayush Kumar Jha · Portfolio 2.0
 
-[Open the portfolio](https://ayush-kumar-jha-v2.onrender.com/) · [View CV](CV.pdf)
+[Open the portfolio](https://ayush-kumar-jha-v2.onrender.com/) · [View CV](CV.pdf) · [View résumé](Resume.pdf)
 
 A static portfolio bringing together software projects, security coursework, embedded experiments, certificates, and technical community work.
 
@@ -11,7 +11,7 @@ A static portfolio bringing together software projects, security coursework, emb
 
 ## Design
 
-A signature introduction leads into a portrait reveal and scroll-driven project chapters. Project stories sit alongside their source and demo links, followed by credentials and presentation photographs.
+A signature introduction leads into a portrait reveal and five scroll-driven lead chapters. Five additional projects are linked from the same scene. Four lead case studies and five compact experiments each have a visible backstory and source/demo links where available, followed by the AgentPGO collaboration, credentials and presentation photographs.
 
 The interface includes responsive navigation, a skip link, reduced-motion support, and a replayable introduction. Project illustrations are visual concepts rather than screenshots of running products.
 
@@ -32,7 +32,7 @@ Open http://localhost:8003. No dependencies or build step are required.
 | [index.html](index.html) | Biography, projects, education, certificates, and links |
 | [style.css](style.css) | Typography, colors, and layout |
 | [script.js](script.js) | Introduction, scroll effects, canvas, and menu |
-| [CV.pdf](CV.pdf) | Downloadable CV |
+| [CV.pdf](CV.pdf), [Resume.pdf](Resume.pdf) | Downloadable career documents |
 | [OFL-Allura.txt](OFL-Allura.txt) | Bundled font license |
 
 ## Hosting
