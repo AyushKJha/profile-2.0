@@ -1,3 +1,5 @@
+<img src="docs/banner.svg" alt="Portfolio 2.0 — selected work in software, security, and embedded systems" width="100%">
+
 # Selected Works
 ### Ayush Kumar Jha · Portfolio 2.0
 
