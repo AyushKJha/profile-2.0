@@ -1,5 +1,3 @@
-<img src="docs/banner.svg" alt="Project overview" width="100%">
-
 # Selected Works
 ### Ayush Kumar Jha · Portfolio 2.0
 
